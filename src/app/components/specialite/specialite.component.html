@@ -1,0 +1,11 @@
+
+<div class="app">
+    <img src="../../../assets/img/specialites.jpg" alt="">
+    <table>
+        <th>Libelle</th><th>idSpec</th>
+        <tr *ngFor="let specialite of specialites">
+            <td>{{specialite._libelle}}</td>
+            <td>{{specialite._idSpec}}</td>
+        </tr>
+    </table>
+</div>

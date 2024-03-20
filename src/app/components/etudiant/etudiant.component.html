@@ -1,0 +1,13 @@
+<div class="app">
+    <img src="../../../assets/img/etudiants.jpg" alt="">
+    <table>
+        <th>idCand</th><th>Nom</th><th>Prenom</th><th>Addresse</th><th>Courriel</th>
+        <tr *ngFor="let etudiant of etudiants">
+            <td>{{etudiant._idCand}}</td>
+            <td>{{etudiant._nom}}</td>
+            <td>{{etudiant._prenoms}}</td>
+            <td>{{etudiant._rue}}</td>
+            <td>{{etudiant._courriel}}</td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,13 @@
+<div class="app">
+    <img src="../../../assets/img/hors-paris.jpg" alt="">
+    <table>
+        <th>idCand</th><th>Nom</th><th>Prenom</th><th>Addresse</th><th>Courriel</th>
+        <tr *ngFor="let etudiant of etudiants">
+            <td *ngIf="(etudiant._ville != 'Paris')"> {{etudiant._idCand}} </td>
+            <td *ngIf="(etudiant._ville != 'Paris')">{{etudiant._nom}}</td>
+            <td *ngIf="(etudiant._ville != 'Paris')">{{etudiant._prenoms}}</td>
+            <td *ngIf="(etudiant._ville != 'Paris')">{{etudiant._rue}}</td>
+            <td *ngIf="(etudiant._ville != 'Paris')">{{etudiant._courriel}}</td>
+        </tr>
+    </table>
+</div>

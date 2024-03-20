@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    margin: auto;
+    border: 0.1vw solid black;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center !important;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+img {
+    width: 50%;
+    margin: 3vw;
+}
+
+.fRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fRow > * {
+    flex-basis: 50%;
+}
+
+.app {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3vw;
+}
